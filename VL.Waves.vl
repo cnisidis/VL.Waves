@@ -9,7 +9,7 @@
     ************************ SineBuilder ************************
 
 -->
-        <Node Name="SineBuilder" Bounds="338,415" Id="UgqWDHpwKA1OIo2aApUIk7">
+        <Node Name="SineBuilder" Bounds="105,285" Id="UgqWDHpwKA1OIo2aApUIk7">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -172,14 +172,14 @@
     ************************ Build ************************
 
 -->
-        <Node Name="Build" Bounds="85,54,119,116" Id="QBPx5uqjBwbN0rxK1qFUlc">
+        <Node Name="Build" Bounds="130,-38,119,116" Id="QBPx5uqjBwbN0rxK1qFUlc">
           <p:NodeReference>
             <Choice Kind="OperationDefinition" Name="Operation" />
             <CategoryReference Kind="Category" Name="Primitive" />
           </p:NodeReference>
           <p:HideCategory p:Type="Boolean">false</p:HideCategory>
           <Patch Id="EQHMWAb2rVKNoEprzoqthC">
-            <Node Bounds="97,82,63,26" AutoConnect="true" Id="Ll520RHX80kL7jqjwxb6Wg">
+            <Node Bounds="142,-10,63,26" AutoConnect="true" Id="Ll520RHX80kL7jqjwxb6Wg">
               <p:NodeReference LastCategoryFullName="NWaves.Signals.Builders.Base.SignalBuilder" LastDependency="NWaves.dll">
                 <Choice Kind="OperationNode" Name="Build" />
                 <FullNameCategoryReference ID="NWaves.Signals.Builders.Base.SignalBuilder" />
@@ -191,6 +191,384 @@
             <Pin Id="JnWkWdcjOGQMAlhfkcrgR6" Name="Input" Kind="InputPin" />
             <Pin Id="MvMeZ2ioyuAMipzhAJM1nF" Name="Output" Kind="OutputPin" />
             <Pin Id="DR84xUWQOitP2g9Wb6WASP" Name="Result" Kind="OutputPin" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SignalBuilder ************************
+
+-->
+        <Node Name="SignalBuilder" Bounds="100,245" Id="GW7WPNrvL85NoLt3M3UvBO">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders.Base" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="SignalBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="UnJMkU56MLmPsuQZRorkAy">
+            <Canvas Id="Ak0aAdFXdokO9HZZsQuxnG" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="Ld7TacJBHhqPeH4HNnsqnw" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ ISignalBuilder ************************
+
+-->
+        <Node Name="ISignalBuilder" Bounds="97,202" Id="GHK4cJgD8zzLSnPBmA3a1Q">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders.Base" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="ISignalBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="G38tjXbmVphORxD1CZlyP1">
+            <Canvas Id="ApOQXm1dxdZOEyGvlLMyio" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="ChDvUPqV8oIOhQP8mXpkGA" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ AdsrBuilder ************************
+
+-->
+        <Node Name="AdsrBuilder" Bounds="380,194" Id="UoYVfahe8mCMReyIOZLk1E">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="AdsrBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="TvCU9y0FfHBMpd8xxj9rSl">
+            <Canvas Id="MFb03LDx0ONNeTjXViTB2Y" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="FYVQYM33VDBMDcY5zcoJ1n" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ AwgnBuilder ************************
+
+-->
+        <Node Name="AwgnBuilder" Bounds="380,228" Id="BV1SwKZhDk7MLrPhWgGGnF">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="AwgnBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="IywTCvapaBnQLSrGZaf4CG">
+            <Canvas Id="DxWry3DTV2uMfTSwx1yfyC" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="CA8csQ2PbtONL8tiqU8REl" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ ChirpBuilder ************************
+
+-->
+        <Node Name="ChirpBuilder" Bounds="380,266" Id="VQDapJrFnEGOzk4Xg9vk4O">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="ChirpBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="GrPfBsflTxSPd9FgeKZSv4">
+            <Canvas Id="LSLIde2dkLZP0l8OOoblEC" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="MmyZC3ma48uPDcNDJK1aaz" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ FadeInOutBuilder ************************
+
+-->
+        <Node Name="FadeInOutBuilder" Bounds="380,301" Id="BHFTBpZ5hu0PWnDVvdde6M">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="FadeInOutBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="GHJUW1nbkJQOnWK1SGbSRR">
+            <Canvas Id="BP3rO74UZBeNnpjIcQDlBz" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="MtC2ZcfO32UMtWG12BvHiu" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ KarplusStrongBuilder ************************
+
+-->
+        <Node Name="KarplusStrongBuilder" Bounds="380,336" Id="Pu8k7oK6fqIMxzfAMWYcYl">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="KarplusStrongBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="S8fMXCfYP3IPgBguNq2nZG">
+            <Canvas Id="Bjk6bbYWODlOGHUSxKSEVA" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="HqgNxvnOag4OnzyABIkA9h" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ KarplusStrongDrumBuilder ************************
+
+-->
+        <Node Name="KarplusStrongDrumBuilder" Bounds="380,369" Id="V7vlm9K87BBN6Esqzhs01t">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="KarplusStrongDrumBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="U9ofHDSjXdCPzbNOrbIRHp">
+            <Canvas Id="EuNXxh6svTPNWG9cGVFY47" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="OrvYUgR7g4HMSOf5BndVY3" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ PadSynthBuilder ************************
+
+-->
+        <Node Name="PadSynthBuilder" Bounds="380,401" Id="CBaSSp9mAuoQKermBV8dRg">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="PadSynthBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="Cj1xp27ePBPO7C7VXtan4s">
+            <Canvas Id="Gks7BrsjGuGNEYzQxWinYU" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="N2cHgupcaBrOBJ7phfwj5n" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ PerlinNoiseBuilder ************************
+
+-->
+        <Node Name="PerlinNoiseBuilder" Bounds="380,436" Id="LCSjVQI5iZ1OFhJgtdld8i">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="PerlinNoiseBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="BhS1S2sjThUMDXxkplZF46">
+            <Canvas Id="QyCwLmnxXdEMwNS7ZUU1Ef" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="TSvwbXod9w0PqQfkwyq09t" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ PinkNoiseBuilder ************************
+
+-->
+        <Node Name="PinkNoiseBuilder" Bounds="380,477" Id="PVRYAvayUgOO8E7GS7jmSa">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="PinkNoiseBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="FPLQmi3kWeYLSZ8by70YaJ">
+            <Canvas Id="OvXE5Q6IYJdQBMlFqw0kxi" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="MJf7v6pAG4RPXd8454g45S" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ PulseWaveBuilder ************************
+
+-->
+        <Node Name="PulseWaveBuilder" Bounds="380,517" Id="NEXceQHHSqeLcZgDkk0fBG">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="PulseWaveBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="GbV2HxSORsJMlzwjDDzVhB">
+            <Canvas Id="FSvZ0aB92tiO5DR7bfPNvU" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="O3zoqmU7uehNCo1249Juys" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ RampBuilder ************************
+
+-->
+        <Node Name="RampBuilder" Bounds="380,551" Id="TxeJ2Swx4yYLHRShc7866v">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="RampBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="PmJ7vdazSWHMwYooh6CIoS">
+            <Canvas Id="VACHm1UpbzxPN2SOSmsdi5" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="N6WutbQRwE0QFtOoKa3m3K" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ RedNoiseBuilder ************************
+
+-->
+        <Node Name="RedNoiseBuilder" Bounds="380,597" Id="BoKhqoCaG5YLMkF38GJA7N">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="RedNoiseBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="MqiPh6GupVlOeLJPR77v6T">
+            <Canvas Id="NvcdTlxLYGdPjq8WEkDC6Q" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="KOJAL4apg0bLfZN1yjnKBi" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SawtoothBuilder ************************
+
+-->
+        <Node Name="SawtoothBuilder" Bounds="380,632" Id="Oua8uowBc7QOyYtXZ5BBF9">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="SawtoothBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="RnoQT1GiLsJL3VcyC3rwTC">
+            <Canvas Id="Lk8g35bZOnbMHMGXjOnlbO" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="P3FDXeianLqMCZ5Rj9h44f" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SincBuilder ************************
+
+-->
+        <Node Name="SincBuilder" Bounds="380,665" Id="HAxIpMhpqdNLLgJRKDIumE">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="SincBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="GB4TuI7dtDXL9PyhngswRN">
+            <Canvas Id="HZ4ZENGxaAuMVOlOwkMSsq" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="ThXCH4vFfZ1LX81wh2Xi4H" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SineBuilder ************************
+
+-->
+        <Node Name="SineBuilder" Bounds="380,702" Id="Q7cSMWNXqiQLUvfhta8ZPo">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="SineBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="QlPsSa9YNDMMgTz5GR5qAT">
+            <Canvas Id="VmnVpsfYdmpOLF9t7KvL0r" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="NWsanzjIKgQMDuOtsY4ObJ" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SquareWaveBuilder ************************
+
+-->
+        <Node Name="SquareWaveBuilder" Bounds="380,740" Id="QCV1gaDT4XANgwK7VPfSeH">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="SquareWaveBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="DxwYoi2cdOyO9cnCUdFOUd">
+            <Canvas Id="VyNDG9LPMe6NWn0EoH6Dmr" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="IEz74aMPGLFOjETK05mZsw" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ TriangleWaveBuilder ************************
+
+-->
+        <Node Name="TriangleWaveBuilder" Bounds="380,774" Id="V3wYpGaI7nMMh7VOX6hIBu">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="TriangleWaveBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="DbQF6edrMWNO1SZsp6c2pi">
+            <Canvas Id="PXdDb9KBuJwQScAZYBSPbr" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="EwhXmST3nORQWYX55M1GRT" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ WaveTableBuilder ************************
+
+-->
+        <Node Name="WaveTableBuilder" Bounds="380,814" Id="Qy4ghfjhDTVNf2FNODd7xp">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="WaveTableBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="R9EGiHFm7bPNFa7xAaSbEW">
+            <Canvas Id="EoTGHMpGWVzPc7N0WQRZUN" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="IRUke3nYyZnLmWMRwyItiT" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ WhiteNoiseBuilder ************************
+
+-->
+        <Node Name="WhiteNoiseBuilder" Bounds="380,863" Id="SIk2brMZ85vLLD1Y924Ah5">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Signals.Builders" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="WhiteNoiseBuilder" />
+          </p:TypeAnnotation>
+          <Patch Id="TEmDikwGEclOtKb40aZ8fl">
+            <Canvas Id="PA5lprud51yL4uDQukCZ3p" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="Bn80fNUSWhePMTjd9zIqXf" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>
@@ -1567,7 +1945,7 @@
     ************************ GetWaveFileSignals ************************
 
 -->
-        <Node Name="GetWaveFileSignals" Bounds="403,208" Id="Go4JQsc8oDUMc619kEIrqH" Summary="Get Signals of a WaveFile" Tags="signals,get,wavefile,wave">
+        <Node Name="GetWaveFileSignals" Bounds="399,201" Id="Go4JQsc8oDUMc619kEIrqH" Summary="Get Signals of a WaveFile" Tags="signals,get,wavefile,wave">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -1790,6 +2168,140 @@
         </Node>
       </Canvas>
       <Canvas Id="BQBgvaeTeUsN1TaRYIn8K1" Name="Features" Position="507,84" BordersChecked="false" />
+      <Canvas Id="U7qjjBzt9BwLe3IaGIWuzZ" Name="Resampling" Position="746,89">
+        <!--
+
+    ************************ Resampler ************************
+
+-->
+        <Node Name="Resampler" Bounds="517,284" Id="DEodlkYqA04Ls4aFxNGaF3">
+          <p:NodeReference>
+            <Choice Kind="ForwardDefinition" Name="Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="NWaves.Operations" LastDependency="NWaves.dll">
+            <Choice Kind="TypeFlag" Name="Resampler" />
+          </p:TypeAnnotation>
+          <Patch Id="IjLXJNh9gWwLzyrnDTY9sQ">
+            <Canvas Id="NgBAmuFFiP8M7KOZ3KyQ0I" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="BPGehGj12BqOwvBZ2XTO7f" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ Resample ************************
+
+-->
+        <Node Name="Resample" Bounds="520,385" Id="GjFb3je5MEjMypOteIcHDs">
+          <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="SIllAXCq75eMYbpY4eJbah">
+            <Canvas Id="OODHjVmMntsLPd4qQpTpwv" CanvasType="Group">
+              <Node Bounds="526,306,54,26" Id="AFwlo0Tr2GhNMBHDdO1w6T">
+                <p:NodeReference LastCategoryFullName="VL.Waves.Resampling.Resampler" LastDependency="VL.Waves.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="ClassType" Name="Resampler" />
+                  <Choice Kind="OperationCallFlag" Name="Create" />
+                </p:NodeReference>
+                <Pin Id="BR2dsBLr3oHOx3k5BjZBLx" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <ControlPoint Id="EQ9wRcA4Lt9Ob0LNqsagKH" Bounds="547,183" />
+              <Node Bounds="499,363,146,157" Id="O7CyKldqbKXOf2JReID5tP">
+                <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Primitive" />
+                  <Choice Kind="ProcessStatefulRegion" Name="Cache" />
+                </p:NodeReference>
+                <Pin Id="BT7hyXsXxeWN3h9wJMWHPx" Name="Force" Kind="InputPin" />
+                <Pin Id="OML6Ew2pU1CO1kzr7Vjapr" Name="Dispose Cached Outputs" Kind="InputPin" />
+                <Pin Id="COppGLc3H33N9VhwMaGZsJ" Name="Has Changed" Kind="OutputPin" />
+                <ControlPoint Id="ONjkc50ISyHMZzVDKnTlYq" Bounds="553,369" Alignment="Top" />
+                <Patch Id="IDk7vRPfszpOQjXITayKbC" ManuallySortedPins="true">
+                  <Patch Id="QyWbApFsgKSPuZessyRTGQ" Name="Create" ManuallySortedPins="true" />
+                  <Patch Id="Kv1ssPnnCYdQbbcmEfAGd9" Name="Then" ManuallySortedPins="true" />
+                  <Node Bounds="535,386,65,19" Id="J9Iyt3Xbq8cM7wuZ7B20fY">
+                    <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+                    </p:NodeReference>
+                    <Pin Id="J5waIBcVrwLLeYrCuD3eSQ" Name="X" Kind="InputPin" />
+                    <Pin Id="Toq6I2u4JoaNIsfqLwNF35" Name="Result" Kind="OutputPin" />
+                    <Pin Id="U2jIEUQAbaVPKi6aAuVgyK" Name="Not Assigned" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="522,420,111,80" Id="Q0AGObUFgXCNbdlIkFrwl2">
+                    <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                      <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                      <CategoryReference Kind="Category" Name="Primitive" />
+                      <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                    </p:NodeReference>
+                    <Pin Id="C2ubR3kEojmLPa33CjZDDr" Name="Condition" Kind="InputPin" />
+                    <Patch Id="BqKtUtbe6wcOP4Hra3KbdW" ManuallySortedPins="true">
+                      <Patch Id="M5VCtqNtYjAPoOf8DzJTL2" Name="Create" ManuallySortedPins="true" />
+                      <Patch Id="MHznYEGuS6GOD4ZnL2lyF1" Name="Then" ManuallySortedPins="true" />
+                      <Node Bounds="534,448,85,26" Id="AXGS6zodxLnL6SiUiwlbQr">
+                        <p:NodeReference LastCategoryFullName="VL.Waves.Resampling.Resampler" LastDependency="VL.Waves.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="ClassType" Name="Resampler" />
+                          <Choice Kind="OperationCallFlag" Name="Resample" />
+                        </p:NodeReference>
+                        <Pin Id="TwHRaMDkAoKLC7IpSVDR9M" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="Id5lMyjmO5DMU05llyGoXt" Name="Signal" Kind="InputPin" />
+                        <Pin Id="PJKoSKgFaDTQJAiTVIqEN5" Name="New Sampling Rate" Kind="InputPin" />
+                        <Pin Id="GH06hXK7rSRLPx8YdHEDSx" Name="Filter" Kind="InputPin" />
+                        <Pin Id="LzXTSuRjyynMiONhtvf2Cz" Name="Order" Kind="InputPin" />
+                        <Pin Id="Fl2R17KQCHPMmszna1b8tk" Name="Output" Kind="StateOutputPin" />
+                        <Pin Id="OknfR6mM3ktNLbkUd0Hvkc" Name="Result" Kind="OutputPin" />
+                      </Node>
+                    </Patch>
+                    <ControlPoint Id="FPKgVK6cKR6NngTfwMjPkl" Bounds="616,494" Alignment="Bottom" />
+                    <ControlPoint Id="UGolX7LrID5P33xyUGzMqF" Bounds="616,426" Alignment="Top" />
+                  </Node>
+                </Patch>
+                <ControlPoint Id="M0f5VeZEgJoNKmkw0oetwd" Bounds="616,514" Alignment="Bottom" />
+                <ControlPoint Id="F9kg2p6rJzdObsSQc2Wgou" Bounds="578,369" Alignment="Top" />
+                <ControlPoint Id="DAPXmGbWKLvLmH4fepJnQG" Bounds="619,369" Alignment="Top" />
+              </Node>
+              <ControlPoint Id="SKjmI6QJkJMNeM5aHKMZKb" Bounds="610,631" />
+              <ControlPoint Id="TZMl2WTA5o9MXy8XPFmIgk" Bounds="594,215" />
+              <ControlPoint Id="Nw2EKUz50tvQW2xw5VE7le" Bounds="732,221" />
+            </Canvas>
+            <Patch Id="UJ30bkfXuIkPGKMl54cYE7" Name="Create" />
+            <Patch Id="C6jssVeO2XVNZGUnbhLj0o" Name="Update">
+              <Pin Id="UtJWzTZ3saZLSMfDUGXUoL" Name="Signal" Kind="InputPin" Bounds="542,167" />
+              <Pin Id="TVYSa5L8qm7M1f9Z3xjwMB" Name="DiscreteSignal" Kind="OutputPin" Bounds="610,631" />
+              <Pin Id="PC40zq1AS6kM0mHWSbh9np" Name="New Sampling Rate" Kind="InputPin" Bounds="594,214" DefaultValue="44100" />
+              <Pin Id="MmM5Eemnp84LJC7Cf7jcWb" Name="Order" Kind="InputPin" Bounds="732,221" DefaultValue="15" />
+            </Patch>
+            <!--
+
+    ************************  ************************
+
+-->
+            <ProcessDefinition Id="MjtC0iPjr10LJC7q4EoUU2">
+              <Fragment Id="TUF9RD4Y5Z3QGLp0iIGKdb" Patch="UJ30bkfXuIkPGKMl54cYE7" Enabled="true" />
+              <Fragment Id="FozFY2NNlvqLs0erCvBBzV" Patch="C6jssVeO2XVNZGUnbhLj0o" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="MMxIsWWoFcIOfTvOlwx5Lp" Ids="BR2dsBLr3oHOx3k5BjZBLx,TwHRaMDkAoKLC7IpSVDR9M" />
+            <Link Id="S1s7Cilu6DLPsYxbKKQgLH" Ids="UtJWzTZ3saZLSMfDUGXUoL,EQ9wRcA4Lt9Ob0LNqsagKH" IsHidden="true" />
+            <Link Id="MXbOw3v7M5ZMUxD3TfGG7T" Ids="EQ9wRcA4Lt9Ob0LNqsagKH,ONjkc50ISyHMZzVDKnTlYq" />
+            <Link Id="Iii2SqSEvV6O5XMs8XBNIZ" Ids="ONjkc50ISyHMZzVDKnTlYq,Id5lMyjmO5DMU05llyGoXt" />
+            <Link Id="AaORPVzGjQ1LIhhS4p9uKL" Ids="ONjkc50ISyHMZzVDKnTlYq,J5waIBcVrwLLeYrCuD3eSQ" />
+            <Link Id="J1MGWyEb248LOgKD1YtAEt" Ids="Toq6I2u4JoaNIsfqLwNF35,C2ubR3kEojmLPa33CjZDDr" />
+            <Link Id="K0UESgL706UQVvUWwb2IZF" Ids="UGolX7LrID5P33xyUGzMqF,FPKgVK6cKR6NngTfwMjPkl" IsFeedback="true" />
+            <Link Id="G98AmHJVRSZOsKogszNDXd" Ids="OknfR6mM3ktNLbkUd0Hvkc,FPKgVK6cKR6NngTfwMjPkl" />
+            <Link Id="HLrEBHXpSzhNpXNnZM2NWW" Ids="FPKgVK6cKR6NngTfwMjPkl,M0f5VeZEgJoNKmkw0oetwd" />
+            <Link Id="TvSuuXBMkF5QYSDeY02Wmf" Ids="M0f5VeZEgJoNKmkw0oetwd,SKjmI6QJkJMNeM5aHKMZKb" />
+            <Link Id="IZ0fmoeRYzzOvtpKtlko9d" Ids="SKjmI6QJkJMNeM5aHKMZKb,TVYSa5L8qm7M1f9Z3xjwMB" IsHidden="true" />
+            <Link Id="Rq5NBY1eLUdNy1nmLVVMXH" Ids="F9kg2p6rJzdObsSQc2Wgou,PJKoSKgFaDTQJAiTVIqEN5" />
+            <Link Id="I8aIK8xO5b7M6ch8KlTI4h" Ids="TZMl2WTA5o9MXy8XPFmIgk,F9kg2p6rJzdObsSQc2Wgou" />
+            <Link Id="HLJkXuSHVAKPqDqjxYhbCS" Ids="PC40zq1AS6kM0mHWSbh9np,TZMl2WTA5o9MXy8XPFmIgk" IsHidden="true" />
+            <Link Id="BPECA6Ga5lZNZsEv6HsnFG" Ids="DAPXmGbWKLvLmH4fepJnQG,LzXTSuRjyynMiONhtvf2Cz" />
+            <Link Id="U5K5plMdJApPftoWzGkvxd" Ids="Nw2EKUz50tvQW2xw5VE7le,DAPXmGbWKLvLmH4fepJnQG" />
+            <Link Id="OJFzIzPfQIENFXM3LNII5J" Ids="MmM5Eemnp84LJC7Cf7jcWb,Nw2EKUz50tvQW2xw5VE7le" IsHidden="true" />
+          </Patch>
+        </Node>
+      </Canvas>
     </Canvas>
     <!--
 

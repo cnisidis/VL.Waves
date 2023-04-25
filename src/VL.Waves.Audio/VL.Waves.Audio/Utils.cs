@@ -21,7 +21,7 @@ namespace VL.Waves.Audio
            
             return DSignal;
         }
-
+        /*
         public static void WriteWav(DiscreteSignal signal, string filepath)
         {
             WaveFile waveFileOut;
@@ -41,7 +41,7 @@ namespace VL.Waves.Audio
                 waveFileOut.SaveTo(stream);
             }
         }
-
+        */
         /*
         public static Stream ToStream(DiscreteSignal Signal)
         {

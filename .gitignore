@@ -3,6 +3,7 @@
 /src/VL.Waves.Audio/VL.Waves.Audio/bin
 /src/VL.Waves.Audio/VL.Waves/.vs/*
 /csharp/VL.Waves/.vs/*
-/csharp/VL.Waves/obj/*
-/csharp/VL.Waves/bin/*
+/csharp/VL.Waves/obj/
+/csharp/VL.Waves/bin/
+/.vl
 

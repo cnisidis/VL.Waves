@@ -2,3 +2,7 @@ C:\VL_Repos\VL.Waves\csharp\VL.Waves\bin\Debug\net6.0\VL.Waves.deps.json
 C:\VL_Repos\VL.Waves\csharp\VL.Waves\obj\Debug\net6.0\VL.Waves.GeneratedMSBuildEditorConfig.editorconfig
 C:\VL_Repos\VL.Waves\csharp\VL.Waves\obj\Debug\net6.0\VL.Waves.AssemblyInfoInputs.cache
 C:\VL_Repos\VL.Waves\csharp\VL.Waves\obj\Debug\net6.0\VL.Waves.AssemblyInfo.cs
+D:\Projects\VL_Repos\VL.Waves\csharp\VL.Waves\bin\Debug\net6.0\VL.Waves.deps.json
+D:\Projects\VL_Repos\VL.Waves\csharp\VL.Waves\obj\Debug\net6.0\VL.Waves.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VL_Repos\VL.Waves\csharp\VL.Waves\obj\Debug\net6.0\VL.Waves.AssemblyInfoInputs.cache
+D:\Projects\VL_Repos\VL.Waves\csharp\VL.Waves\obj\Debug\net6.0\VL.Waves.AssemblyInfo.cs

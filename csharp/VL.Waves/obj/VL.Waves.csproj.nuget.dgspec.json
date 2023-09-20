@@ -1,21 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj": {}
+    "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj": {}
   },
   "projects": {
-    "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj": {
+    "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj",
+        "projectUniqueName": "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj",
         "projectName": "VL.Waves",
-        "projectPath": "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj",
-        "packagesPath": "C:\\Users\\cnisidis\\.nuget\\packages\\",
-        "outputPath": "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\obj\\",
+        "projectPath": "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj",
+        "packagesPath": "C:\\Users\\makei\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\NuGet.Config",
-          "C:\\Users\\cnisidis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\NuGet.Config",
+          "C:\\Users\\makei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,9 +44,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "VL.Core": {
+            "CommunityToolkit.HighPerformance": {
               "target": "Package",
-              "version": "[2022.5.0-0698-g985682f12d, )"
+              "version": "[8.1.0, )"
+            },
+            "HG.NWaves": {
+              "target": "Package",
+              "version": "[0.9.6, )"
+            },
+            "NWaves": {
+              "target": "Package",
+              "version": "[0.9.6, )"
             }
           },
           "imports": [
@@ -62,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

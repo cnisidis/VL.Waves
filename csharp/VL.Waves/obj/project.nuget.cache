@@ -1,61 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dDqENA+5E2gwRTH6es/0FkZORUurqvXc6cOtYER67PNWIlOkeLBq/Z9JPuy9VjXex+Uhs+dYsJs31bobwW2EwA==",
+  "dgSpecHash": "08fK1WrHggDENn13lTvHidLt4IzZ++tv9Lpr3oftmK/hWsbCrMp9ZrWJpVi3bxqRw/Mu7W8FnmHwlghAR6hR5g==",
   "success": true,
-  "projectFilePath": "C:\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj",
+  "projectFilePath": "D:\\Projects\\VL_Repos\\VL.Waves\\csharp\\VL.Waves\\VL.Waves.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cnisidis\\.nuget\\packages\\communitytoolkit.highperformance\\8.0.0\\communitytoolkit.highperformance.8.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.5\\microsoft.extensions.objectpool.6.0.5.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\nuget.versioning\\6.2.0\\nuget.versioning.6.2.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\servicewire\\5.3.4\\servicewire.5.3.4.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\stride.core\\4.1.0.1805\\stride.core.4.1.0.1805.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\stride.core.mathematics\\4.1.0.1805\\stride.core.mathematics.4.1.0.1805.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.interactive\\6.0.1\\system.interactive.6.0.1.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.io.pipes\\4.3.0\\system.io.pipes.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.net.sockets\\4.3.0\\system.net.sockets.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.threading.overlapped\\4.3.0\\system.threading.overlapped.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\cnisidis\\.nuget\\packages\\vl.core\\2022.5.0-0700-geb6096d5ad\\vl.core.2022.5.0-0700-geb6096d5ad.nupkg.sha512"
+    "C:\\Users\\makei\\.nuget\\packages\\communitytoolkit.highperformance\\8.1.0\\communitytoolkit.highperformance.8.1.0.nupkg.sha512",
+    "C:\\Users\\makei\\.nuget\\packages\\hg.nwaves\\0.9.6\\hg.nwaves.0.9.6.nupkg.sha512",
+    "C:\\Users\\makei\\.nuget\\packages\\nwaves\\0.9.6\\nwaves.0.9.6.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "VL.Waves depends on VL.Core (>= 2022.5.0-0698-g985682f12d) but VL.Core 2022.5.0-0698-g985682f12d was not found. An approximate best match of VL.Core 2022.5.0-0700-geb6096d5ad was resolved.",
-      "libraryId": "VL.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

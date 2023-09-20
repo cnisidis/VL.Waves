@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VL.Waves
-build_property.ProjectDir = C:\VL_Repos\VL.Waves\csharp\VL.Waves\
+build_property.ProjectDir = D:\Projects\VL_Repos\VL.Waves\csharp\VL.Waves\

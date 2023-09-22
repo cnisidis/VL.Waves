@@ -3,7 +3,7 @@
   <NugetDependency Id="LtjD3mC4VhRO8GPoHLkYur" Location="VL.CoreLib" Version="2023.5.3-0164-g883a868a2e" />
   <Patch Id="NtLlyJzXSPMP0Y2swYbDIl">
     <Canvas Id="PrLHVf53NquLoNrN0hm9iq" DefaultCategory="VL.Waves" CanvasType="FullCategory">
-      <Canvas Id="Nfv556GfapHOVSSj2BSMzn" Name="Builders" Position="335,256">
+      <Canvas Id="Nfv556GfapHOVSSj2BSMzn" Name="Builders" Position="339,263">
         <!--
 
     ************************ SineBuilder ************************
@@ -954,7 +954,7 @@
     ************************ Player ************************
 
 -->
-        <Node Name="Player" Bounds="-76,56" Id="Tet0Tx7s1KeNuEKscusttB">
+        <Node Name="Player" Bounds="-80,61" Id="Tet0Tx7s1KeNuEKscusttB">
           <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -3964,7 +3964,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="U7qjjBzt9BwLe3IaGIWuzZ" Name="Resampling" Position="746,89">
+      <Canvas Id="U7qjjBzt9BwLe3IaGIWuzZ" Name="Resampling" Position="672,88">
         <!--
 
     ************************ Resampler ************************
@@ -4099,7 +4099,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="DlOm0cPY98UMoThnJJkeEu" Name="Filters" Position="744,206">
+      <Canvas Id="DlOm0cPY98UMoThnJJkeEu" Name="Filters" Position="685,170">
         <!--
 
     ************************ NotchFilter ************************

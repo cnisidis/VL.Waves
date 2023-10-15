@@ -216,7 +216,7 @@
     ************************ SpectrumData ************************
 
 -->
-            <Node Name="SpectrumData" Bounds="357,226" Id="JJeNzBLla2iOMNEswpJf0q">
+            <Node Name="SpectrumData" Bounds="-78,169" Id="JJeNzBLla2iOMNEswpJf0q">
               <p:NodeReference>
                 <Choice Kind="ClassDefinition" Name="Class" />
                 <FullNameCategoryReference ID="Primitive" />

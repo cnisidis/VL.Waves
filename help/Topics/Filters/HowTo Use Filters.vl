@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="I48NjY6rOSvOMNS5cBn4mh" LanguageVersion="2023.5.3-0210-g711a1c31d4" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="I48NjY6rOSvOMNS5cBn4mh" LanguageVersion="2023.5.3-0365-gfe42142fdf" Version="0.128">
   <Patch Id="D6YPvnrMzkVNilA8F3evPc">
     <Canvas Id="DZSVKhwqOfBM1HSkweFDjJ" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -187,7 +187,7 @@
             <Pin Id="BRABxdz01XuMrh3Dijv221" Name="Input 3" Kind="InputPin" />
             <Pin Id="LqqhkOkkS6TMSyyjNY4u8o" Name="Input 4" Kind="InputPin" />
           </Node>
-          <Node Bounds="348,635,45,19" Id="H3nK64aD1SROmeKK3gs1VS">
+          <Node Bounds="348,635,65,19" Id="H3nK64aD1SROmeKK3gs1VS">
             <p:NodeReference LastCategoryFullName="VL.Waves.Transforms" LastDependency="VL.Waves.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FFT (PowerSpectrum)" />
@@ -196,6 +196,7 @@
             <Pin Id="VehpjeJUiy7P7w7neZeuyf" Name="Fft Size" Kind="InputPin" DefaultValue="1024" />
             <Pin Id="AaSaqB2AnccN7ephDLTfvh" Name="Signal" Kind="InputPin" />
             <Pin Id="GVa7QBFP7yFMOkyJaBvnN0" Name="Normalize" Kind="InputPin" />
+            <Pin Id="HAxIYAVm7JVPkc1SxB6eYX" Name="SkipFirst" Kind="InputPin" />
             <Pin Id="MAe6lxXhFwJMP6lY5S2k0H" Name="DiscreteSignal" Kind="OutputPin" />
             <Pin Id="ULF59nAe33xMAuPyJlkFjs" Name="Samples" Kind="OutputPin" />
           </Node>
@@ -303,10 +304,11 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="C9RpDaOeV1zMfaDY3hkp6O" Location="VL.CoreLib" Version="2023.5.3-0210-g711a1c31d4" />
+  <NugetDependency Id="C9RpDaOeV1zMfaDY3hkp6O" Location="VL.CoreLib" Version="2023.5.3-0365-gfe42142fdf" />
   <NugetDependency Id="Omt7urI6HcRM6NPsp2fLqB" Location="VL.Waves" Version="0.0.0.0" />
-  <NugetDependency Id="CVoGYhlUopoQJYC7GUWrJR" Location="VL.Audio" Version="1.2.2" />
-  <DocumentDependency Id="CjKTPliGyg1NrzjNp77OjT" Location="../VL.Waves.Stride.vl" />
-  <NugetDependency Id="E2mAkfYNU81M480PNemtSu" Location="VL.Stride" Version="2023.5.3-0210-g711a1c31d4" />
-  <NugetDependency Id="Lov8qu4uGBlOFTl6fmKzIC" Location="VL.Skia" Version="2023.5.3-0210-g711a1c31d4" />
+  <NugetDependency Id="CVoGYhlUopoQJYC7GUWrJR" Location="VL.Audio" Version="1.3.4-preview" />
+  <NugetDependency Id="E2mAkfYNU81M480PNemtSu" Location="VL.Stride" Version="2023.5.3-0365-gfe42142fdf" />
+  <NugetDependency Id="Lov8qu4uGBlOFTl6fmKzIC" Location="VL.Skia" Version="2023.5.3-0365-gfe42142fdf" />
+  <NugetDependency Id="NrHVjEJ8yhVLlmqNvUfLCK" Location="VL.Stride.TextureFX" Version="2023.5.3-0365-gfe42142fdf" />
+  <DocumentDependency Id="STPpZTu7quOOip7jrkqk6r" Location="../../../VL.Waves.Stride.vl" />
 </Document>

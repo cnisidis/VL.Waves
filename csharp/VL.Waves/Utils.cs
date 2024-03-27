@@ -6,8 +6,8 @@ using NWaves.Signals;
 using NWaves.Signals.Builders.Base;
 using System.Linq;
 
-
 namespace VL.Waves;
+
 public static class Utils
 {
     
@@ -34,4 +34,17 @@ public static class Utils
         
         return newSignal;
     }
+    /*
+    public static List<float> OccurenciesAverage(IEnumerable<KeyValuePair<int, float>> values)
+    {
+        int prev_pair_key = 0;
+        
+        for (int i = 0; i<values.Count(); i++)
+        {
+            List<float> newValues = new List<float>();
+            
+            newValues.Add();
+        }
+    }
+    */
 }

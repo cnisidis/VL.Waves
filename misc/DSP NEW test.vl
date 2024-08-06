@@ -704,7 +704,7 @@
             <Pin Id="Bb6OC1uUR5ZNqUKhBEswKA" Name="Current" Kind="InputPin" />
             <Pin Id="Ks1Hs5pKTihOBsQtcsR71S" Name="Text" Kind="InputPin" DefaultValue="FFT Moving Average" />
           </Node>
-          <Node Bounds="522,355,93,19" Id="GmCf3YEzLVfN5mylcbK8FM">
+          <Node Bounds="518,359,93,19" Id="GmCf3YEzLVfN5mylcbK8FM">
             <p:NodeReference LastCategoryFullName="Waves.Signals" LastDependency="VL.Waves.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FromAudioSignal" />

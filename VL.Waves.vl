@@ -3392,7 +3392,7 @@
                   <ControlPoint Id="L02vyaZLdHiM3IUwh9nTBd" Bounds="792,363" />
                   <ControlPoint Id="LfqY8Yz0QGKNgUhc2TCSNR" Bounds="942,381" />
                   <ControlPoint Id="AxRizpiI9T3QXUiNXTVNlz" Bounds="944,629" />
-                  <Node Bounds="1015,377,67,26" Id="OaKiic5VU1yN5WUy2jIqW0">
+                  <Node Bounds="1015,377,77,26" Id="OaKiic5VU1yN5WUy2jIqW0">
                     <p:NodeReference LastCategoryFullName="Waves.Signals.DiscreteSignal" LastDependency="VL.Waves.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="DiscreteSignal" NeedsToBeDirectParent="true" />
@@ -3438,7 +3438,7 @@
                       </Node>
                       <ControlPoint Id="Fyhcrmt7vKsPkWEm2BOp5M" Bounds="989,454" />
                     </Patch>
-                    <ControlPoint Id="EbfE5MrbmyAOcCbsAlWJpn" Bounds="1079,442" Alignment="Top" />
+                    <ControlPoint Id="EbfE5MrbmyAOcCbsAlWJpn" Bounds="1089,442" Alignment="Top" />
                     <ControlPoint Id="ObKGslEa8z1NtTB9ydso93" Bounds="944,567" Alignment="Bottom" />
                     <ControlPoint Id="MUsDwJqpZNEOdOrQd1eVud" Bounds="944,442" Alignment="Top" />
                   </Node>
@@ -4598,10 +4598,11 @@
                       <Pin Id="CTfs0laUCxANZXkjGoNCqg" Name="Size" Kind="OutputPin" />
                     </Node>
                   </Patch>
+                  <ControlPoint Id="GGpAqCAv7bOMgAJ3rap2fQ" Bounds="442,540" Alignment="Bottom" />
                 </Node>
                 <ControlPoint Id="Dhyc4XzNaxdM220LXpv98R" Bounds="434,110" />
                 <ControlPoint Id="K3tpzbloOAhOmEV5Rir08A" Bounds="394,578" />
-                <Pad Id="HI7jRZEh0XSMGpNXEKzhat" SlotId="VVyota821SGNaabH2CZXss" Bounds="333,559" />
+                <Pad Id="HI7jRZEh0XSMGpNXEKzhat" SlotId="VVyota821SGNaabH2CZXss" Bounds="336,589" />
                 <Node Bounds="475,656,154,134" Id="MoMNCvtyTGqM4hFSjEcC6M">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -4635,7 +4636,7 @@
                     </Node>
                   </Patch>
                 </Node>
-                <Node Bounds="331,613,65,19" Id="Ez2pnoOOwLuNRQfy0KSg40">
+                <Node Bounds="334,643,65,19" Id="Ez2pnoOOwLuNRQfy0KSg40">
                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="IsAssigned" />
@@ -4666,7 +4667,7 @@
                   <Pin Id="P9Kr1wNHPbmOMkp4sPqp4p" Name="Input 2" Kind="InputPin" />
                   <Pin Id="T84ba0V3LpSN4uNAbCSB4U" Name="Output" Kind="OutputPin" />
                 </Node>
-                <ControlPoint Id="VmoOpn7ibDoOQNwTvn0CxI" Bounds="663,194" />
+                <ControlPoint Id="VmoOpn7ibDoOQNwTvn0CxI" Bounds="669,179" />
                 <Pad Id="QU35ev9kvkGLsKrSOeks9X" SlotId="QKfW4G4JeFnN3DFdN6LzwU" Bounds="567,569" />
                 <Node Bounds="771,328,192,115" Id="DVkSLsSrxzdNzUUCDFVfjD">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
@@ -4736,7 +4737,7 @@
                   <Pin Id="QmTK31ZvuaQL1K2lDOdXPu" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="Qm4Ov6IYmeqMT4huDPnRb2" Name="Length" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="463,587,67,26" Id="JX4oUrfrr7YP0wWZCTc9T7">
+                <Node Bounds="474,606,67,26" Id="JX4oUrfrr7YP0wWZCTc9T7">
                   <p:NodeReference LastCategoryFullName="Waves.Signals.DiscreteSignal" LastDependency="VL.Waves.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ClassType" Name="DiscreteSignal" NeedsToBeDirectParent="true" />
@@ -4746,6 +4747,7 @@
                   <Pin Id="NCi78BwrNZFNKmdkCsM3Eu" Name="Signal" Kind="OutputPin" />
                   <Pin Id="PT2lRBHSC4zNRrhD9mRG5D" Name="Samples" Kind="OutputPin" />
                 </Node>
+                <ControlPoint Id="PBAbQsa8IBuNXyDFBXBNEY" Bounds="443,582" />
               </Canvas>
               <ProcessDefinition Id="OrqfCVctQaAODW1IXf1WC3">
                 <Fragment Id="IS2JnWNvNdxLfK59UfiiQt" Patch="HkxNDAyOjDON883bHs4KYL" Enabled="true" />
@@ -4813,8 +4815,12 @@
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="KOhKKu0OKS1O9w98RxMgCO" Name="FWT" Kind="OutputPin" Bounds="398,520" />
+                <Pin Id="BKYo0uFJ8AJLbie1SkA6ho" Name="Size" Kind="OutputPin" />
                 <Pin Id="JyQ3rz9ZSVFMzyo7NvSKcR" Name="Output" Kind="OutputPin" Bounds="750,675" />
               </Patch>
+              <Link Id="SPWxw5cXMoHPStSKPaZmRr" Ids="CTfs0laUCxANZXkjGoNCqg,GGpAqCAv7bOMgAJ3rap2fQ" />
+              <Link Id="VCbhRJcg8lFMaBzqX5ItA7" Ids="GGpAqCAv7bOMgAJ3rap2fQ,PBAbQsa8IBuNXyDFBXBNEY" />
+              <Link Id="C9zfkEHIuN6Mi1b58FZ3ha" Ids="PBAbQsa8IBuNXyDFBXBNEY,BKYo0uFJ8AJLbie1SkA6ho" IsHidden="true" />
             </Patch>
           </Node>
           <!--
@@ -12603,11 +12609,6 @@
               <Pin Id="PQxv8zBxOzNMxBsVk7WeaA" Name="Freq Max" Kind="InputPin" DefaultValue="16000" />
               <Pin Id="Moypuaxv1hfMw5Gm6CBgpx" Name="Mel Banks" Kind="OutputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="Lxbg7hvACj0OS1UxMOUtNc">
               <Fragment Id="UheZ1wlh53FOlrXqqicd7B" Patch="UHr3tbluQDKOWZQx1sY2TP" Enabled="true" />
               <Fragment Id="MyWRn5RumgqLn9Qkitvjej" Patch="PQgdr0ZWQzTOkGeQTUhSQM" Enabled="true" />

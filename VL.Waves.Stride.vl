@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="PwQYT5w9wsvQY4kWk7DLhh" LanguageVersion="2023.5.3-0210-g711a1c31d4" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="PwQYT5w9wsvQY4kWk7DLhh" LanguageVersion="2024.6.6" Version="0.128">
   <Patch Id="EAQNntUEetjPgK5AGzHhUX">
     <Canvas Id="KO60XVRWj2gPJNP1ZUfPdN" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -29,14 +29,14 @@
             <ControlPoint Id="SfYdUUYBNGnQZ0W3K5r7M5" Bounds="354,253" />
             <ControlPoint Id="CjQyUjqAyNhQPXY8KdoVWw" Bounds="495,130" />
             <ControlPoint Id="HhgQIsSWoDBNFLqadgaDum" Bounds="198,1384" />
-            <ControlPoint Id="CdoQKlJvg9EQZb7CkHayk8" Bounds="343,291" />
+            <ControlPoint Id="CdoQKlJvg9EQZb7CkHayk8" Bounds="249,252" />
             <ControlPoint Id="OPTeTLzqFpLOR1lzIOlRv7" Bounds="479,316" />
             <ControlPoint Id="V4HlQLWULd3MLTHdPrfxV3" Bounds="540,216" />
             <ControlPoint Id="KHJLLFUxmiiOS4dSxcyYM3" Bounds="413,112" />
-            <ControlPoint Id="B9gFhDdwHKVNcl7YjHgnnP" Bounds="794,174" />
+            <ControlPoint Id="B9gFhDdwHKVNcl7YjHgnnP" Bounds="794,174,-561,0" />
             <ControlPoint Id="GIxWly1r7zINzUJ3SzNiks" Bounds="955,164" />
             <ControlPoint Id="OcVPSrW0DDmQVXiIsEaIiJ" Bounds="1131,173" />
-            <Pad Id="DalurtjJC2rMHH0PVqCiXk" Comment="BG" Bounds="785,392,136,15" ShowValueBox="true" isIOBox="true" Value="0.01000016, 0.01000016, 0.01000016, 1">
+            <Pad Id="DalurtjJC2rMHH0PVqCiXk" Comment="BG" Bounds="785,392,20,15" ShowValueBox="true" isIOBox="true" Value="0.01000016, 0.01000016, 0.01000016, 1">
               <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="RGBA" />
               </p:TypeAnnotation>
@@ -80,7 +80,7 @@
                   <Pin Id="EhNlJNcjt0tMlEEUfM1P3a" Name="Input" Kind="StateInputPin" />
                   <Pin Id="SYPg2GdsxqlMwaVMyE1pzF" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Node Bounds="315,412,199,349" Id="T4NDRrITvJTLxvnmhidRei">
+                <Node Bounds="315,412,187,349" Id="T4NDRrITvJTLxvnmhidRei">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -104,7 +104,7 @@
                       <Pin Id="NOlGaTSo93CPLCq2Y6miNg" Name="Scalar" Kind="InputPin" />
                       <Pin Id="D01jnF7BTwSOXX4G180adH" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="477,519,25,19" Id="BzAZXbirglqLtEv6BunFQm">
+                    <Node Bounds="465,518,25,19" Id="BzAZXbirglqLtEv6BunFQm">
                       <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="*" />
@@ -113,7 +113,7 @@
                       <Pin Id="KiFVGj2CEBHPi9EwbDnQjn" Name="Input 2" Kind="InputPin" />
                       <Pin Id="EPTSoyDvZOHMAQzEmbZYYw" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="440,593,45,19" Id="B68oghnRv4tNh64Q8rLvOv">
+                    <Node Bounds="430,597,45,19" Id="B68oghnRv4tNh64Q8rLvOv">
                       <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Lerp" />
@@ -159,7 +159,7 @@
                     </Node>
                   </Patch>
                 </Node>
-                <Pad Id="TbtBFH0tVFFQPr4C8XopRl" Comment="" Bounds="483,428,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                <Pad Id="TbtBFH0tVFFQPr4C8XopRl" Comment="" Bounds="497,429,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
@@ -424,6 +424,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="ARSikR1M5fWOuFjMw0RTdZ" Location="VL.CoreLib" Version="2023.5.3-0210-g711a1c31d4" />
-  <NugetDependency Id="NfiPEI49DIsPp9t0LoaWkB" Location="VL.Stride.Runtime" Version="2023.5.3-0210-g711a1c31d4" />
+  <NugetDependency Id="ARSikR1M5fWOuFjMw0RTdZ" Location="VL.CoreLib" Version="2024.6.6" />
+  <NugetDependency Id="NfiPEI49DIsPp9t0LoaWkB" Location="VL.Stride.Runtime" Version="2024.6.6" />
 </Document>

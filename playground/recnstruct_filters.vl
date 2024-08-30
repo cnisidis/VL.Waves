@@ -157,13 +157,13 @@
             <Pin Id="OEBOpzf2MMIN68KFknMr7C" Name="Index" Kind="InputPin" />
             <Pin Id="L6rBrU4CL9qLdsL1tP0myy" Name="Result" Kind="OutputPin" />
           </Node>
-          <Node Bounds="573,786,185,19" Id="G4iVjSSMnxHQNOv9S5egmj">
+          <Node Bounds="583,819,185,19" Id="G4iVjSSMnxHQNOv9S5egmj">
             <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
             </p:NodeReference>
             <Pin Id="EPDr7qxwHv4PXfGhk7I1nB" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="EbAbCIMvxmGMowSmfy3yWn" Name="Bounds" Kind="InputPin" DefaultValue="2010, 199, 2312, 330" IsHidden="true" />
+            <Pin Id="EbAbCIMvxmGMowSmfy3yWn" Name="Bounds" Kind="InputPin" DefaultValue="2056, 466, 1405, 219" IsHidden="true" />
             <Pin Id="Eo9zxt2zBebPEawEHT9mPv" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="AiMVoqTLSULLcQH4vezD2i" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="CLo396NzvDXMTCuPeZPH0q" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
@@ -282,7 +282,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="176,264,125,19" Id="FpL3LpzFt7fOYz4DrxNcuB">
+          <Node Bounds="4,290,125,19" Id="FpL3LpzFt7fOYz4DrxNcuB">
             <p:NodeReference LastCategoryFullName="VL.Waves.Filters.BiQuad" LastDependency="VL.Waves.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LowPassFilter" />

@@ -17005,7 +17005,7 @@
                 <Pin Id="PTBwKLj4rhOQE02UTEbXre" Name="FFT Size" Kind="InputPin" />
                 <Pin Id="IE6wNfubcKEPqD6Q50KosH" Name="Bin" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="GV3cE7PgWJqMnlzgE3MJrk" Bounds="922,359" />
+              <ControlPoint Id="GV3cE7PgWJqMnlzgE3MJrk" Bounds="924,354" />
               <ControlPoint Id="E21I2fdqQUJLwuX89n9zfe" Bounds="954,404" />
               <ControlPoint Id="KvtX8Wh5tjUOZBYRX3bk0i" Bounds="1046,404" />
               <ControlPoint Id="Bs8Qb5HUrRLQQVTSW515DQ" Bounds="802,653" />

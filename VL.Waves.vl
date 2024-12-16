@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="NKrMMDwVMM6L5XZpiLQHf3" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
-  <NugetDependency Id="LtjD3mC4VhRO8GPoHLkYur" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="NKrMMDwVMM6L5XZpiLQHf3" LanguageVersion="2024.6.7-0254-g03f33351e2" Version="0.128">
+  <NugetDependency Id="LtjD3mC4VhRO8GPoHLkYur" Location="VL.CoreLib" Version="2024.6.7-0254-g03f33351e2" />
   <Patch Id="NtLlyJzXSPMP0Y2swYbDIl">
     <Canvas Id="PrLHVf53NquLoNrN0hm9iq" DefaultCategory="VL.Waves" CanvasType="FullCategory">
       <Canvas Id="Nfv556GfapHOVSSj2BSMzn" Name="Builders" Position="339,263">
@@ -12418,7 +12418,7 @@
                 <Pin Id="QXDQhGOaTBmN1YNHMeYtff" Name="Result" Kind="OutputPin" />
                 <Pin Id="ISjrwtPKNKvQWw29RW1zn3" Name="Not Assigned" Kind="OutputPin" />
               </Node>
-              <Node Bounds="340,400,175,205" Id="HRpbj65QlCpOTC6trTnX1Z">
+              <Node Bounds="333,400,182,205" Id="HRpbj65QlCpOTC6trTnX1Z">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -12437,12 +12437,12 @@
                     <Pin Id="PjQ2Oa2wpnXNjWYl87J75g" Name="Input" Kind="StateInputPin" />
                     <Pin Id="MS2vTSQ71ypPcBTfyYGDjJ" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="352,438,81,26" Id="Sh9NhJYuZE8MMYS494iRvu">
-                    <p:NodeReference LastCategoryFullName="Waves.Features.Extractor.FeatureExtractor" LastDependency="VL.Waves.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <Node Bounds="345,451,81,26" Id="Sb2UEftYOcXMGLt7oFwKHK">
+                    <p:NodeReference LastCategoryFullName="VL.Waves.Features.Extractor.FeatureExtractor" LastDependency="VL.Waves.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="FeatureExtractor" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="ComputeFrom" />
-                      <PinReference Kind="InputPin" Name="Samples" />
+                      <PinReference Kind="InputPin" Name="Signal" />
                       <PinReference Kind="OutputPin" Name="Result">
                         <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Collections.Mutable" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="MutableList" />
@@ -12459,10 +12459,10 @@
                         </p:DataTypeReference>
                       </PinReference>
                     </p:NodeReference>
-                    <Pin Id="Blx3UxeC1d9LOFIU0XCmLO" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="QyjkZ0I8t6rMJZOzg90XFJ" Name="Samples" Kind="InputPin" />
-                    <Pin Id="DEqGMNeIAV5MZ2PCKbbSBm" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="D9npCAmoCVJQWpFugv9OVe" Name="Result" Kind="OutputPin" />
+                    <Pin Id="NX8wPyJgWghQAcdE7YVHF4" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="REnNYkGD9IZLNagX8Olbf4" Name="Signal" Kind="InputPin" />
+                    <Pin Id="EKzUhSKzZxANrFfCN31XL0" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="VBG4nmPlcU3LCoI4uYPoTf" Name="Result" Kind="OutputPin" />
                   </Node>
                 </Patch>
                 <ControlPoint Id="V0OUTuOmWqYOlJDn5Zzq4s" Bounds="422,599" Alignment="Bottom" />
@@ -12493,7 +12493,6 @@
               <ControlPoint Id="Kv7ltuUzGncMiOkx03Kq2J" Bounds="106,95" />
               <Pad Id="KWQexOmfLhyNmw1bCgzIri" SlotId="G2kaW62iNzrLesH51F3YIi" Bounds="162,512" />
               <Pad Id="GCM2i2M3HF0OU1wqQlgyou" SlotId="G2kaW62iNzrLesH51F3YIi" Bounds="356,271" />
-              <ControlPoint Id="DG75Z53Cj0gNTJgdLTbklI" Bounds="457,91" />
             </Canvas>
             <ProcessDefinition Id="QyuZ9XHZkhxNbVj0xDjagX">
               <Fragment Id="RpxJuX463CfO91UBzRk2eS" Patch="EQghN5aymxcO8TNhykxvQL" Enabled="true" />
@@ -12523,19 +12522,17 @@
             <Link Id="Ijzpc02WkEON7TOHFu0Xgk" Ids="PQRM40bnJ2eO1pomunilXK,KWQexOmfLhyNmw1bCgzIri" />
             <Slot Id="G2kaW62iNzrLesH51F3YIi" Name="Extractor" />
             <Link Id="EG2Mc1Fx1BVLsTe2iwLkQT" Ids="GCM2i2M3HF0OU1wqQlgyou,NwAh0CPwdEsMtfl15YSNXl" />
-            <Link Id="SLRqxHQxA3gNW8OktlsA5o" Ids="D9npCAmoCVJQWpFugv9OVe,PjQ2Oa2wpnXNjWYl87J75g" />
-            <Link Id="EntMIa0dqSuLWwsykAAuCk" Ids="GCM2i2M3HF0OU1wqQlgyou,Blx3UxeC1d9LOFIU0XCmLO" />
-            <Link Id="M1HbjMt9n11P3lNbanOvQ4" Ids="DG75Z53Cj0gNTJgdLTbklI,QyjkZ0I8t6rMJZOzg90XFJ" />
-            <Link Id="HDPVdQaDuV1LyHRIAkB5fe" Ids="CrzaXUWoLwXPmY2rKRYYmM,DG75Z53Cj0gNTJgdLTbklI" IsHidden="true" />
             <Patch Id="EQghN5aymxcO8TNhykxvQL" Name="Create" />
             <Patch Id="DbYg6z2JOogPuajiVFNfhl" Name="Update">
               <Pin Id="BKgl6y3BLIFOJIMY1XqAlU" Name="Force" Kind="InputPin" Bounds="85,84" />
               <Pin Id="GNbUFvmF8HSLVI4HjnTk5K" Name="Options" Kind="InputPin" Bounds="343,104" />
               <Pin Id="EXgZQIvfuIhQU4nQuMgFFQ" Name="Signal" Kind="InputPin" Bounds="448,95" />
-              <Pin Id="CrzaXUWoLwXPmY2rKRYYmM" Name="Samples" Kind="InputPin" />
               <Pin Id="KXygT9MkR65Nyp39IgkApR" Name="Apply" Kind="InputPin" Bounds="534,97" />
               <Pin Id="KQLqR3xarYvOZRfery8IeO" Name="Result" Kind="OutputPin" Bounds="454,640" />
             </Patch>
+            <Link Id="NuEOcXbwO40OLKxuOZC9xC" Ids="VBG4nmPlcU3LCoI4uYPoTf,PjQ2Oa2wpnXNjWYl87J75g" />
+            <Link Id="H1RgORF3uKqNCNveo5b67b" Ids="GCM2i2M3HF0OU1wqQlgyou,NX8wPyJgWghQAcdE7YVHF4" />
+            <Link Id="ElRoCZfVYqUQbaQ5OAVpIx" Ids="EptRXSlMPEpK95FdbfRNhq,REnNYkGD9IZLNagX8Olbf4" />
           </Patch>
         </Node>
         <!--
@@ -19081,7 +19078,7 @@
   <NugetDependency Id="EeQvugR1PbWPnJgQdj9KiC" Location="NWaves" Version="0.9.6" />
   <PlatformDependency Id="GZpUiMkx38sNX9FC3mhfyy" Location="System.IO.FileSystem" />
   <PlatformDependency Id="NKQ9XzfyOohNQptovPoNvA" Location="System.IO" />
-  <NugetDependency Id="RPWTILpQRkYND0WPiQOYbd" Location="VL.Audio" Version="1.8.4" />
+  <NugetDependency Id="RPWTILpQRkYND0WPiQOYbd" Location="VL.Audio" Version="1.9.2" />
   <ProjectDependency Id="R5brXNwefdXPEp6CqoJAmi" Location="./csharp/VL.Waves/VL.Waves.csproj" />
   <NugetDependency Id="MhPL1H8NG5oOna2HzGBXyO" Location="VL.Waves" Version="0.0.0" />
   <NugetDependency Id="IHpxdunWEKINA0D0GbJpnQ" Location="VL.Analyzer" Version="0.0.0" />

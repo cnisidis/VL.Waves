@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="HG.NWaves" Version="0.9.6" />
     <PackageReference Include="NWaves" Version="0.9.6" />
-    <PackageReference Include="VL.Core" Version="2024.6.6" />
+    <PackageReference Include="VL.Core" Version="2024.6.7" />
     
     
   </ItemGroup>
